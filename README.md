@@ -1,4 +1,4 @@
-# hdi-theme
+# Hdi-theme
 
 A Semi-responsive Wordpress Theme for PT HDI.
 
