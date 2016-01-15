@@ -19,4 +19,4 @@ The code is available under GPL 3.0 license.
 
 ## Bugs & Contributing
 
-Please report bugs via Github and feel free to submit commit [pull-request](https://github.com/krua/hdi-theme/pulls) even a small contribution to the script or the documentation. 
+Please report bugs via Github and feel free to submit commit [pull-request](https://github.com/krua/hdi-theme/pulls) even a small contribution to the script or the documentation are welcome. 
