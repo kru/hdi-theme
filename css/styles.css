@@ -1,0 +1,108 @@
+ul, ol, li a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body {
+	font-family: "Tahoma";
+	font-size: 14px;
+}
+
+
+.container .container-fluid {
+	min-width: 960px !important;
+}
+
+.navbar-default {
+	background-color: #11924e;
+	overflow: hidden;
+}
+
+.jumbotron {
+	background-color: #fff;
+	padding-bottom: 36px;
+}
+
+.about {
+	margin-top: 68px;
+	padding-bottom: 20px;
+}
+.ul-pad {
+	padding-bottom: 27px;
+}
+
+.own-box {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.img-fixed-height,
+.thumbnail > img {
+	height: 258px;
+	z-index: 1;
+}
+
+.box-style {
+	border: 0px solid #0c720a;
+}
+
+.cont-box {
+	margin-top: 52px;
+}
+
+.contact-us {
+	border-right: 1px solid #0c720a;
+	padding-right: 48px;
+}
+
+.title-cont {
+	padding-bottom: 16px;
+}
+
+.style-cont {
+	line-height: 1;
+}
+
+.phone-cont {
+	padding-top: 16px;
+}
+
+.fax-cont {
+	margin-bottom: 0px;
+}
+ 
+.in-line {
+	margin-top: 4px;
+}
+
+.pad-left {
+	padding-left: 35px
+}
+
+.col-xs-3 {
+	margin-top: 8px;
+}
+
+.btn-primary {
+	background-color: #11924e;
+	border-color: #11924e;
+}
+  
+.btn-primary:hover {
+	background-color: #11924e;
+	border-color: #11924e;
+}
+
+
+.form-style {
+	padding-top: 2px;
+}
+
+.ft-style {
+	height: 46px;
+	margin-top: 72px;
+}
+
+.gal-container {
+	margin-top: 20px;
+}

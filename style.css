@@ -1,0 +1,25 @@
+/**********************************************************************************
+
+	Theme Name: HDI Theme
+	Theme URI: 
+	Description: A simple theme created for PT HDI
+	Author:	Kristoporus Rua
+	Author URI: https://id.linkedin.com/in/kristoforus-rua-a4109164
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Tags: Simple, Elegant
+
+**********************************************************************************/
+
+@import url("css/styles.css");
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
