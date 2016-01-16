@@ -1,6 +1,6 @@
 # Hdi-theme
 
-A Semi-responsive Wordpress Theme for PT HDI.
+A Semi-responsive Wordpress Theme for [PT HDI](http://mactoday.co/hdi).
 
 This is a simple theme that uses several web technologies and Wordpress plugins. It includes Twitter Bootstrap, Magnific Pop-up, Captha (BestWebsoft), Envira Gallery, Soliloquy Lite, What The File, and several other plugins for optimization. 
 
