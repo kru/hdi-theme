@@ -5,7 +5,8 @@
 <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'main-slider', 'slug' ); } ?>
 </a>
 
-<div class="row">
+<section>
+<article class="row">
 		<div class="col-lg-12 about">
 
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
@@ -14,10 +15,10 @@
 
 			<?php endwhile; endif; ?>
 		</div>
-	</div><!--end About-->
+</article><!--end About-->
 
 	<!--vision & mission-->
-	<div class="row">
+	<article class="row">
 		<div class="col-lg-12">
 			<p class="text-center"><strong>Vision</strong></p><br>
 			<?php 
@@ -38,7 +39,8 @@
 				</ul>
 		</div>
 		</div>
-	</div><!--end vision & mission-->
+	</article><!--end vision & mission-->
+</section>
 
 	<!--3 images & modal triggers-->
 	<div class="row pop-up">
