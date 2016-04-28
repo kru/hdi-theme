@@ -4,7 +4,7 @@ ul, ol, li a {
 }
 
 body {
-	font-family: "Tahoma";
+	font-family: "Tahoma", "Sans-serif", "Verdana";
 	font-size: 14px;
 }
 
@@ -34,30 +34,16 @@ body {
 .own-box {
 	padding-left: 1px;
 	padding-right: 1px;
-	display: block;
-	overflow: hidden;
-}
-
-.own-box img {
-	-webkit-transition:all 1.5s;
-	-moz-transition:all 1.5s;
-	-o-transition:all 1.5s;
-	-ms-transition:all 1.5s;
-	transition:all 1.5s;
-}
-
-.own-box:hover img {
-   -webkit-transform:scale(1.1);
-   -moz-transform:scale(1.1);
-   -o-transform:scale(1.1);
-   -ms-transform:scale(1.1);
-	transform:scale(1.1);
 }
 
 .img-fixed-height,
 .thumbnail > img {
 	height: 258px;
 	z-index: 1;
+}
+
+.box-style {
+	border: 0px solid #0c720a;
 }
 
 .cont-box {
@@ -84,7 +70,7 @@ body {
 .fax-cont {
 	margin-bottom: 0px;
 }
- 
+
 .in-line {
 	margin-top: 4px;
 }
@@ -101,11 +87,12 @@ body {
 	background-color: #11924e;
 	border-color: #11924e;
 }
-  
+
 .btn-primary:hover {
 	background-color: #11924e;
 	border-color: #11924e;
 }
+
 
 .form-style {
 	padding-top: 2px;

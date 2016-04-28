@@ -1,12 +1,11 @@
 
 <?php get_header(); ?>  
 
-<a href=" http://localhost/hdi/?page_id=131 ">
+<a href=" http://mactoday.co/hdi/?page_id=131 ">
 <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'main-slider', 'slug' ); } ?>
 </a>
 
-<section>
-<article class="row">
+<div class="row">
 		<div class="col-lg-12 about">
 
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
@@ -15,10 +14,10 @@
 
 			<?php endwhile; endif; ?>
 		</div>
-</article><!--end About-->
+	</div><!--end About-->
 
 	<!--vision & mission-->
-	<article class="row">
+	<div class="row">
 		<div class="col-lg-12">
 			<p class="text-center"><strong>Vision</strong></p><br>
 			<?php 
@@ -39,23 +38,22 @@
 				</ul>
 		</div>
 		</div>
-	</article><!--end vision & mission-->
-</section>
+	</div><!--end vision & mission-->
 
 	<!--3 images & modal triggers-->
 	<div class="row pop-up">
 		<div class="col-xs-4 own-box">
-			<a href="http://localhost/hdi/?page_id=68" class="thumbnail box-style">
+			<a href="http://mactoday.co/hdi/?page_id=68" class="thumbnail box-style">
 				<img src="<?php print IMAGES; ?>/static-middle.jpg" class="img-responsive img-fixed-height" alt="carpet1">
 			</a>
 		</div>
 		<div class="col-xs-4 own-box">
-			<a href="http://localhost/hdi/?page_id=37" class="thumbnail box-style">
+			<a href="http://mactoday.co/hdi/?page_id=37" class="thumbnail box-style">
 				<img src="<?php print IMAGES; ?>/mattress-ticking.jpg" class="img-responsive img-fixed-height" alt="carpet2">
 			</a>
 		</div>
 		<div class="col-xs-4  own-box">
-			<a href=" http://localhost/hdi/?page_id=93" class="thumbnail box-style">
+			<a href=" http://mactoday.co/hdi/?page_id=93" class="thumbnail box-style">
 				<img src="<?php print IMAGES; ?>/Carpet.jpg" class="img-responsive img-fixed-height" alt="carpet3">
 			</a>
 		</div>
